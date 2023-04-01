@@ -6,6 +6,8 @@ from collections import defaultdict
 import pandas as pd
 from googletrans import Translator
 import pandas as pd
+import nltk
+nltk.download('vader_lexicon')
 
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 analyzer = SentimentIntensityAnalyzer()
